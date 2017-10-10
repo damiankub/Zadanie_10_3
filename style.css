@@ -1,0 +1,58 @@
+* {
+margin: 0 auto;
+padding: 0;
+border: 0;
+line-height: 1.4em;
+vertical-align: baseline;
+text-decoration: none;
+outline: 0;
+}
+#carousel {
+	width:400px;
+	height: 300px;
+	border: 1px solid;
+	overflow: hidden; 
+}
+
+#carousel ul {
+	width: 2000px;
+}
+
+#carousel ul li{
+	width:400px;
+	height: 300px;
+	list-style: none;
+	float:left;
+}
+#carousel ul li img {
+	width: 400px;
+	height: 300px;
+
+}
+.button-left {
+	width: 0; 
+  	height: 0; 
+ 	border-top: 30px solid transparent;
+ 	border-bottom: 30px solid transparent; 
+  	border-right:30px solid blue; 
+  	background: none;
+  	opacity: 0.5;
+  	position: absolute;
+  	margin-top: 120px;
+}
+
+.button-right {
+  width: 0; 
+  height: 0; 
+  border-top: 30px solid transparent;
+  border-bottom: 30px solid transparent;
+  border-left: 30px solid blue;
+  background: none;
+  opacity: 0.5;
+  position: absolute;
+  margin: 120px 0 0 370px;
+}
+
+#button:hover {
+	opacity: 1;
+}
